@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment Form</title>
+    <style>
+        body{
+            background-color:whitesmoke;
+            text-align: justify;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10%;
+            margin-top: 5%;
+            margin-left: 25%;
+            margin-right: 35%;
+        }
+        h1{
+         text-align: center;
+         color: blue;
+         background-color: bisque;
+        }
+        fieldset{
+            background-color: cornsilk;
+        }
+        label{
+         font-weight: bold;
+         font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h1>Course Enrollment Form</h1>
+    <form action="#">
+        <fieldset>
+        <label for="sname">Student Name: </label>
+        <input type="text" id="sname" name="sname"  required><br><br>
+        <label for="roll no.">Roll Number: </label>
+        <input type="text" id="roll no." name="roll no."  required><br><br>
+        <label for="email">EMail: </label>
+        <input type="email" id="email" name="email"  required><br><br>
+
+        <label for="course">Course selection: </label><br>
+        <input type="checkbox" id="java" name="course" required>
+        <label for="java">JAVA</label><br>
+        <input type="checkbox" id="python" name="course">
+        <label for="python">PYTHON</label><br>
+        <input type="checkbox" id="SQL" name="course">
+        <label for="SQL">SQL</label><br>
+        <input type="checkbox" id="C" name="course">
+        <label for="C">C</label><br>
+        <input type="checkbox" id="C++" name="course">
+        <label for="C++">C++</label><br>
+        <input type="checkbox" id="HTML & CSS" name="course">
+        <label for="HTML & CSS">HTML & CSS</label><br>
+        <input type="checkbox" id="JAVA SCRIPT" name="course">
+        <label for="JAVA SCRIPT">JAVA SCRIPT</label><br><br>
+
+        <label  for="study">Mode Of Study: </label><br>
+        <input type="radio" id="online" name="study" required>
+        <label for="online">online</label><br>
+        <input type="radio" id="physical" name="study">
+        <label for="physical">physical</label><br>
+        <input type="radio" id="virtual" name="study">
+        <label for="virtual">virtual</label><br><br>
+        <input   style="background-color:  rgb(122, 231, 226);" type="submit" id="submit" name="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
